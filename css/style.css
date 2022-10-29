@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #8800ff;
+}
+
+.component {
+    animation: bounceIn 2s infinite;
+    width: 200px;
+    height: 200px;
+    background-color: #fff
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+    }
+
+    60% {
+        transform: scale(1.4)
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
